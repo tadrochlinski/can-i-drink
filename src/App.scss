@@ -30,6 +30,11 @@ body{
     font-size: 5rem;
 }
 
+.second{
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
 
 .form{  
     display: flex;
@@ -46,7 +51,7 @@ body{
         background-color: $greyish;
         border-radius: 10px;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.8rem;
         -moz-appearance: textfield;
         outline-color: $submain;
         transition: background-color 250ms, outline 250ms;
@@ -93,4 +98,8 @@ body{
     &:focus{
         outline: 3px solid $submain;
     }
+}
+
+.output{
+    margin-top: 20px;
 }
